@@ -1,4 +1,4 @@
-function insert(num) {
+function inserir(num) {
     document.querySelector(".tela").innerHTML += num;
   }
   
@@ -14,7 +14,7 @@ function insert(num) {
     );
   }
   
-  function calcular() {
+  function somar() {
     let tela = document.querySelector(".tela").innerHTML;
     if (tela) {
       document.querySelector(".tela").innerHTML = eval(tela);
